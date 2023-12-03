@@ -8,9 +8,9 @@ test task with login and authorization
 - `cd python manage.py runserver`
 - 
   and app is available in http://127.0.0.1:8000/
-  documentation with swagger in http://127.0.0.1:8000/api/docs/
-  signup with Postman
-  http://127.0.0.1:8000/api/signup/
-  signin with Postman
-  http://127.0.0.1:8000/api/signin/
+-  documentation with swagger in http://127.0.0.1:8000/api/docs/
+-  signup with Postman
+-  http://127.0.0.1:8000/api/signup/
+-  signin with Postman
+-  http://127.0.0.1:8000/api/signin/
 
