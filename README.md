@@ -7,7 +7,7 @@ make sure that your ports 8001 for the app and 5432 for postgres are free
 - build project `docker-compose up -d --build`
 - and app is available in http://0.0.0.0:8001/
 - 
--  documentation with swagger in http://0.0.0.1:8001/api/docs/
+-  documentation with swagger in http://0.0.0.0:8001/api/docs/
 -  signup
 -  http://0.0.0.0:8001/api/signup/
 -  signin
