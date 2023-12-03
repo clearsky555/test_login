@@ -11,8 +11,8 @@ test task with login and authorization
 - 
   and app is available in http://127.0.0.1:8000/
 -  documentation with swagger in http://127.0.0.1:8000/api/docs/
--  signup with Postman
+-  signup 
 -  http://127.0.0.1:8000/api/signup/
--  signin with Postman
+-  signin 
 -  http://127.0.0.1:8000/api/signin/
 
