@@ -5,7 +5,7 @@ test task with login and authorization
 - `source venv/bin/activate`
 - `pip install -r requirements.txt`
 - `cd test_login_auth`
-- `cd python manage.py runserver`
+- `python manage.py runserver`
 - 
   and app is available in http://127.0.0.1:8000/
 -  documentation with swagger in http://127.0.0.1:8000/api/docs/
