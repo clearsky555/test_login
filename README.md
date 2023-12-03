@@ -1,17 +1,15 @@
 # test_login
-test task with login and authorization
+test task with login and authorization, postgresql is used as a database, the project is packaged in docker
 
 ## HOW TO RUN PROJECT
+make sure that your ports 8001 for the app and 5432 for postgres are free
 - `cd test_login_auth`
-- `python3 -m venv venv`
-- `source venv/bin/activate`
-- `pip install -r requirements.txt`
-- `python manage.py runserver`
+- build project `docker-compose up -d --build`
+- and app is available in http://0.0.0.0:8001/
 - 
-  and app is available in http://127.0.0.1:8000/
--  documentation with swagger in http://127.0.0.1:8000/api/docs/
--  signup with Postman
--  http://127.0.0.1:8000/api/signup/
--  signin with Postman
--  http://127.0.0.1:8000/api/signin/
+-  documentation with swagger in http://0.0.0.1:8001/api/docs/
+-  signup
+-  http://0.0.0.1:8001/api/signup/
+-  signin
+-  http://0.0.0.1:8001/api/signin/
 
